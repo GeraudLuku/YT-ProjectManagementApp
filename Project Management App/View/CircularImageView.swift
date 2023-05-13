@@ -24,6 +24,5 @@ struct CircularImageView: View {
 struct CircularImageView_Previews: PreviewProvider {
     static var previews: some View {
         CircularImageView(name: "profile", size: 42)
-            .previewLayout(.sizeThatFits)
     }
 }

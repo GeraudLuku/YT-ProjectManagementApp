@@ -12,7 +12,7 @@ struct ContentView: View {
         NavigationStack {
             VStack {
                 TabView {
-                    HomeView()
+                    HomeScreen()
                         .tabItem {
                             Image(systemName: "house.fill")
                         }

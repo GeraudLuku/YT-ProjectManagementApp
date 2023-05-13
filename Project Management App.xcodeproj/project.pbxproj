@@ -11,7 +11,7 @@
 		9FF8D2B329F6C17B00CDCA15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8D2B229F6C17B00CDCA15 /* ContentView.swift */; };
 		9FF8D2B529F6C17E00CDCA15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8D2B429F6C17E00CDCA15 /* Assets.xcassets */; };
 		9FF8D2B829F6C17E00CDCA15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8D2B729F6C17E00CDCA15 /* Preview Assets.xcassets */; };
-		9FF8D2C229F6C52800CDCA15 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8D2C129F6C52800CDCA15 /* HomeView.swift */; };
+		9FF8D2C229F6C52800CDCA15 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8D2C129F6C52800CDCA15 /* HomeScreen.swift */; };
 		9FF8D2C429FA819900CDCA15 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8D2C329FA819900CDCA15 /* CircularImageView.swift */; };
 		9FF8D2C629FA852100CDCA15 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8D2C529FA852100CDCA15 /* SearchBarView.swift */; };
 		9FF8D2C829FA889300CDCA15 /* ProjectItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8D2C729FA889300CDCA15 /* ProjectItemView.swift */; };
@@ -24,7 +24,7 @@
 		9FF8D2B229F6C17B00CDCA15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9FF8D2B429F6C17E00CDCA15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FF8D2B729F6C17E00CDCA15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9FF8D2C129F6C52800CDCA15 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9FF8D2C129F6C52800CDCA15 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		9FF8D2C329FA819900CDCA15 /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
 		9FF8D2C529FA852100CDCA15 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		9FF8D2C729FA889300CDCA15 /* ProjectItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectItemView.swift; sourceTree = "<group>"; };
@@ -42,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F6B5F242A0FFADB0006A501 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				9FF8D2C129F6C52800CDCA15 /* HomeScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 		9FF8D2A429F6C17B00CDCA15 = {
 			isa = PBXGroup;
 			children = (
@@ -61,8 +69,9 @@
 		9FF8D2AF29F6C17B00CDCA15 /* Project Management App */ = {
 			isa = PBXGroup;
 			children = (
-				9FF8D2C929FA89EE00CDCA15 /* Utils */,
+				5F6B5F242A0FFADB0006A501 /* Screen */,
 				9FF8D2BE29F6C4EB00CDCA15 /* View */,
+				9FF8D2C929FA89EE00CDCA15 /* Utils */,
 				9FF8D2B029F6C17B00CDCA15 /* Project_Management_AppApp.swift */,
 				9FF8D2B229F6C17B00CDCA15 /* ContentView.swift */,
 				9FF8D2B429F6C17E00CDCA15 /* Assets.xcassets */,
@@ -82,7 +91,6 @@
 		9FF8D2BE29F6C4EB00CDCA15 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9FF8D2C129F6C52800CDCA15 /* HomeView.swift */,
 				9FF8D2C329FA819900CDCA15 /* CircularImageView.swift */,
 				9FF8D2C529FA852100CDCA15 /* SearchBarView.swift */,
 				9FF8D2C729FA889300CDCA15 /* ProjectItemView.swift */,
@@ -170,7 +178,7 @@
 			files = (
 				9FF8D2CB29FA89FE00CDCA15 /* Data.swift in Sources */,
 				9FF8D2C629FA852100CDCA15 /* SearchBarView.swift in Sources */,
-				9FF8D2C229F6C52800CDCA15 /* HomeView.swift in Sources */,
+				9FF8D2C229F6C52800CDCA15 /* HomeScreen.swift in Sources */,
 				9FF8D2C429FA819900CDCA15 /* CircularImageView.swift in Sources */,
 				9FF8D2B329F6C17B00CDCA15 /* ContentView.swift in Sources */,
 				9FF8D2B129F6C17B00CDCA15 /* Project_Management_AppApp.swift in Sources */,
